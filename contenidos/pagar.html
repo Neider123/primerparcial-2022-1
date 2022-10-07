@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pagar</title>
+</head>
+
+<body>
+    
+    <div class="container justify-content-center">
+        <h1>Formulario de registro</h1>
+        <div class="form col">
+          <div class="col">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre">
+            </div>
+            <div class="mb-3">
+                <select class="form-select" required aria-label="select example">
+                    <option value="">Tipo de pago</option>
+                    <option value="1">TARJETA</option>
+                    <option value="2">PSE</option>
+                    <option value="3">BITCOIN</option>
+                  </select>
+                  <div class="invalid-feedback">Example invalid select feedback</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Direccion</label>
+              <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <button type="submit" class="btn btn-primary mb-3">Finalizar transacción</button>
+        </div>
+      </div>
+        
+</body>
+
+</html>
